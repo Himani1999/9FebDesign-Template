@@ -10,33 +10,20 @@
         margin-top: 0px;
     }  
     .text-block1 {
-        position: absolute;
-        bottom: 90%;
-        right: 25%;
         color: red;
         font-size: 15px;
     }
     .text-block2{
         font-size: 20px;
-        position: absolute;
-        bottom: 80%;
-        right: 16%;
-        left: 16%;
         color: white;
         font-weight: 5;
     }
     .text-block3{
-        position: absolute;
-        bottom: 70%;
-        right: 10%;
         color: white;
         font-weight: 10;
         font-size: 30px;
     }
     .text-block4{
-        position: absolute;
-        bottom: 55%;
-        right: 5%;
         text-align: center;
         font-size: 35px;
         color: white;
@@ -46,20 +33,23 @@
         display: grid;
         grid-template-columns: auto;
         align-items: center;
-        width: 30%;
-        position: absolute;
-        bottom: 41%;
-        right: 35%;
+        width: 50%;
         gap: 10px;
+        padding-top: 50px;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: auto;
+        /* border: 1px solid red; */
+        align-items: center;
+        color: purple;
+        gap: 20px;
     }
     .btn-1{
-        position: absolute;
         border: none;
         font-size:15px;
         color: white;
         padding: 15px 15px;
-        bottom: 29%;
-        right: 29%;
         background: linear-gradient(to right, #cc00cc 50%, #ff00ff 100%);
     }
 
@@ -243,5 +233,16 @@
 .circle-3{
     margin-left: 25px;
 }
+.main {
+    width: 150px;
+    display: grid;
+    grid-template-columns: auto;
+    height: 700px;
+  }
+  .days, .hours, .minutes, .seconds, .left {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
 
 }

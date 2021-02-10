@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Rubik+Mono+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
@@ -16,12 +18,17 @@
         padding: 0;
         margin: 0;
     }
+    
 </style>
 <body>
-    <div class="maincontainer" >
-        <div>
-            <img src="black-bg.png" width="100%" class="image1">
-            <h3 class="text-block1">UPCOMING IPEM EVENT</h3>
+    <div class="maincontainer">
+        <div class="first-bg-image">
+            <!-- <img src="black-bg.png" width="100%" class="image1"> -->
+            <h3 class="text-block1">
+                
+                
+                
+                UPCOMING IPEM EVENT</h3>
             <h2 class="text-block2">HURRYUP! REGISTER NOW DON'T WASTE TIME</h2>
             <h2 class="text-block3">IPEM CONDUCTING</h2>
             <h1 class="text-block4">CODING COMPETITION</h1>
@@ -29,7 +36,7 @@
                 <div><i class="fas fa-globe" style="color: blueviolet;"></i> IPEM, GHAZIABAD</div>
                 <div><i class="fa fa-calendar" aria-hidden="true" style="color: blueviolet;"></i> 20 FEBRUARY,2021</div>
             </div>
-            <div><button class="btn-1">REGISTER NOW</button></div>
+            <div class="button1"><button class="btn-1">REGISTER NOW</button></div>
         </div>
     </div>
         <div class="maincontainer" style="background: linear-gradient(to right, #cc00cc 50%, #ff00ff 100%);">
@@ -40,12 +47,45 @@
             <div class="text-block7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique eligendi voluptas 
                 maxime natus tenetur exercitationem quibusdam minus culpa perferendis, 
                 distinctio quam dolor quas impedit reprehenderit sunt accusantium iste sint.</div>
-            <div class="grid-2">
-                <div class="grid-2-1"><h1>26</h1><p>DAYS</p></div>
-                <div class="grid-2-2"><h1>19</h1><p>HOURS</p></div>
-                <div class="grid-2-3"><h1>58</h1><p>MINUTES</p></div>
-                <div class="grid-2-4"><h1>37</h1><p>SECONDS</p></div>
+            <div class="container">
+            <div class="main"> 
+                <div id="countdown"></div>
             </div>
+              </div> 
+            <script>
+
+
+                const year = new Date().getFullYear();
+                const choosenDate = new Date("Feb 28, 2021 12:00:00").getTime();
+                
+                // const choosenDate = new Date(2021,2,28).getTime();
+                 
+                let countdown = setInterval(function() {
+                 
+                  const today = new Date().getTime();
+                 
+                  const diff = choosenDate - today;
+                 
+                  let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+                 
+                  document.getElementById("countdown").innerHTML =
+                    "<div class=\"days\"> \
+                  <div class=\"c-number\">" + days + "</div>days</div> \
+                <div class=\"hours\"> \
+                  <div class=\"c-number\">" + hours + "</div>hours</div> \
+                <div class=\"minutes\"> \
+                  <div class=\"c-number\">" + minutes + "</div>minutes</div> \
+                <div class=\"seconds\"> \
+                  <div class=\"c-number\">" + seconds + "</div>seconds</div> \
+                </div>";
+                 
+                }, 1000);
+                </script>
+
+
         </div>
     </div>
 </div>
@@ -61,6 +101,10 @@
                     <div class="four-para">which don't look even slightly believeable. If you are</div>
                     <div class="five-para">going to use a passage of you need to be sure</div>
                     <div></div>
+                    <div class="grid2">
+                        <div><i class="fas fa-globe" style="color: blueviolet;"></i> WHERE <br><br><div style= " color: gray;">IPEM, GHAZIABAD</div></div>
+                        <div><i class="fa fa-calendar" aria-hidden="true" style="color: blueviolet;"></i> WHEN <br><br><div style= " color: gray;">   20 FEBRUARY,2021  </div> </div>
+                    </div>
                     <div><button class="btn-2">REGISTER NOW</button></div>
                 </div>
                 <div class="grid-3-2">
