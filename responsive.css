@@ -2,16 +2,10 @@
     .contanier{
         width: 100%;
     }
-
-    .image1{
-        height: 500px;
-    }
-    .centered {
-        margin-top: 0px;
-    }  
     .text-block1 {
         color: red;
         font-size: 15px;
+        padding-top: 90px;
     }
     .text-block2{
         font-size: 20px;
@@ -44,6 +38,12 @@
         align-items: center;
         color: purple;
         gap: 20px;
+    }
+    .button1{
+        width: 40%;
+        margin: auto;
+        margin-top: 50px;
+        padding-bottom: 80px;
     }
     .btn-1{
         border: none;
