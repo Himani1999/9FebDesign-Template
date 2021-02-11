@@ -5,30 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Rubik+Mono+One&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<script src="homepage.js"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="responsive.css">
     <title>CODING COMPETITION</title>
 </head>
-<style>
-    body{
-        padding: 0;
-        margin: 0;
-    }
-    
-</style>
 <body>
     <div class="maincontainer">
         <div class="first-bg-image">
             <!-- <img src="black-bg.png" width="100%" class="image1"> -->
-            <h3 class="text-block1">
-                
-                
-                
-                UPCOMING IPEM EVENT</h3>
+            <h3 class="text-block1">UPCOMING IPEM EVENT</h3>
             <h2 class="text-block2">HURRYUP! REGISTER NOW DON'T WASTE TIME</h2>
             <h2 class="text-block3">IPEM CONDUCTING</h2>
             <h1 class="text-block4">CODING COMPETITION</h1>
@@ -39,7 +28,7 @@
             <div class="button1"><button class="btn-1">REGISTER NOW</button></div>
         </div>
     </div>
-        <div class="maincontainer" style="background: linear-gradient(to right, #cc00cc 50%, #ff00ff 100%);">
+        <div class="maincontainer" style="background: linear-gradient(to right, #cc0099 50%, #ff0066 100%);">
         <div class="container">
         <div class="div-2">
             <h3 class="text-block5">TIME IS RUNNING OUT</h3>
@@ -47,45 +36,11 @@
             <div class="text-block7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique eligendi voluptas 
                 maxime natus tenetur exercitationem quibusdam minus culpa perferendis, 
                 distinctio quam dolor quas impedit reprehenderit sunt accusantium iste sint.</div>
-            <div class="container">
+            <!-- <div class="container"> -->
             <div class="main"> 
                 <div id="countdown"></div>
             </div>
-              </div> 
-            <script>
-
-
-                const year = new Date().getFullYear();
-                const choosenDate = new Date("Feb 28, 2021 12:00:00").getTime();
-                
-                // const choosenDate = new Date(2021,2,28).getTime();
-                 
-                let countdown = setInterval(function() {
-                 
-                  const today = new Date().getTime();
-                 
-                  const diff = choosenDate - today;
-                 
-                  let days = Math.floor(diff / (1000 * 60 * 60 * 24));
-                  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-                  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
-                 
-                  document.getElementById("countdown").innerHTML =
-                    "<div class=\"days\"> \
-                  <div class=\"c-number\">" + days + "</div>days</div> \
-                <div class=\"hours\"> \
-                  <div class=\"c-number\">" + hours + "</div>hours</div> \
-                <div class=\"minutes\"> \
-                  <div class=\"c-number\">" + minutes + "</div>minutes</div> \
-                <div class=\"seconds\"> \
-                  <div class=\"c-number\">" + seconds + "</div>seconds</div> \
-                </div>";
-                 
-                }, 1000);
-                </script>
-
-
+              <!-- </div>  -->
         </div>
     </div>
 </div>
@@ -139,10 +94,10 @@
             <div class="winning">COMPETITION WINNING</div>
             <div class="prize">PRIZES</div>
             <div class="grid-6">
-                <div class="first-position"><p>FIRST POSITION</p><p>FEB 28, 2021</p></div>
-                <div class="second-position"><p>SECOND POSITION</p><p>FEB 28, 2021</p></div>
-                <div class="third-position"><p>THIRD POSITION</p><p>FEB 28, 2021</p></div>
-                <div class="fourth-position"><p>FOURTH POSITION</p><p>FEB 28, 2021</p></div>
+                <div class="first-position"><h4><span style="color: indigo;">FIRST POSITION</span><br>FEB 28, 2021</h4></div>
+                <div class="second-position"><h4>SECOND POSITION<br>FEB 28, 2021</h4></div>
+                <div class="third-position"><h4>THIRD POSITION<br>FEB 28, 2021</h4></div>
+                <div class="fourth-position"><h4>FOURTH POSITION<br>FEB 28, 2021</h4></div>
             </div>
             <div class="bg-color"></div>
             </div>

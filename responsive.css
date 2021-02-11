@@ -87,19 +87,6 @@
     text-shadow: 1px 0px 2px gray;
     font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .grid-3{
     display: grid;
     grid-template-columns: 100%;
@@ -158,10 +145,10 @@
     display: grid;
     grid-template-columns: auto;
     padding-top: 40px;
+    row-gap: 10px;
 }
 .first-position{
     text-align: center;
-    background: linear-gradient(to top right, #ccccff 50%, #ccccff 52%);
 }
 .second-position{
     text-align: center;
@@ -233,11 +220,15 @@
 .circle-3{
     margin-left: 25px;
 }
+
 .main {
-    width: 150px;
+    margin-bottom: 0px;
+    width: 170px;
     display: grid;
     grid-template-columns: auto;
     height: 700px;
+row-gap: 50px;
+
   }
   .days, .hours, .minutes, .seconds, .left {
     display: grid;

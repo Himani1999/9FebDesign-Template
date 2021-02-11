@@ -15,30 +15,31 @@ body{
     background-image: url('./black-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 10px solid green; */
 }
-/* .image1{
-    height: 653px;
-} */
-
 .text-block1 {
-    padding-top: 50px;
-    color: red;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-top: 150px;
+    color: indianred;
     text-align: center;
 }
 .text-block2{
     text-align: center;
     color: white;
+    letter-spacing: 3px;
+    font-weight: lighter;
 }
 .text-block3{
+    margin-top: -5px;
     text-align: center;
     color: white;
-    font-weight: 2;
-    font-size: 50px;
+    font-weight: lighter;
+    font-size: 40px;
 }
 .text-block4{
+    margin-top: -20px;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     color: white;
     font-weight: bold;
 }
@@ -47,9 +48,10 @@ body{
     grid-template-columns: auto auto;
     /* border: 1px solid red; */
     align-items: center;
-    width: 35%;
+    width: 30%;
     margin: auto;
     color: white;
+    margin-top: -5px;
 }
 .grid2{
     margin-top: 50px;
@@ -63,7 +65,7 @@ body{
 .button1{
     width: 15%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     padding-bottom: 100px;
 }
 .btn-1{
@@ -72,24 +74,16 @@ body{
     color: white;
     padding: 15px 15px;
     align-items: center;
-    background: linear-gradient(to right, #cc00cc 50%, #ff00ff 100%);
+    background: linear-gradient(to right, #cc0099 50%, #ff0066 100%);
 }
 .div-2{
     text-align: center;
 }
-/* 
-.grid-2{
-display: grid;
-grid-template-columns: auto auto auto auto;
-width: 60%;
-margin: auto;
-margin-top: 20px;
-margin-bottom: 50px;
-} */
 .text-block5{
     text-align: center;
     padding-top: 100px;
     color: white;
+    letter-spacing: 3px;
 }
 .text-block6{
     padding-top: 0px;
@@ -101,37 +95,8 @@ margin-bottom: 50px;
     color: white;
     padding-left: 240px;
     padding-right: 240px;
+    line-height: 1.6;
 }
-/* .grid-2-1{
-    border: 1px solid red;
-    height: 150px;
-    margin-right: 10px;
-    color: white;
-}
-.grid-2-2{
-    height: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 1px solid yellowgreen;
-    color: white;
-}
-.grid-2-3{
-    height: 150px;
-    border: 1px solid blue;
-    margin-left: 10px;
-    color: white;
-    margin-right: 10px;
-}
-.grid-2-4{
-    height: 150px;
-    border: 1px solid salmon;
-    color: white;
-    margin-left: 10px;
-} */
-
-
-
-
 .grid-3{
     width: 100%;
     display: grid;
@@ -139,16 +104,11 @@ margin-bottom: 50px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-/* .grid-3-1{
-    border: 1px solid blue;
-}
-.grid-3-2{
-    border: 1px solid brown;
-} */
 .event{
     text-align: center;
-    color: goldenrod;
-    text-shadow: 1px 0px 2px gray;
+    color: #F39C17;
+    font-weight: bold;
+    letter-spacing: 3px;
     font-size: 15px;
 }
 .biggest{
@@ -177,10 +137,12 @@ margin-bottom: 50px;
     padding: 2px 0px;
 }
 .btn-2{
-    background: linear-gradient(to right, #cc00cc 50%, #ff00ff 100%);
     border: none;
+    background: linear-gradient(to right, #cc0099 50%, #ff0066 100%);
     margin-top: 10px;
     padding: 15px 15px;
+    color: white;
+    font-weight: bold;
 }
 .div-color-1{
     margin-left: 100px;
@@ -190,15 +152,15 @@ margin-bottom: 50px;
 .div-color-2{
     height: 250px;
     background-color: white;
-    width: 200px;
+    width: 150px;
     margin-top: 235px;
 }
 .div-color-3{
-    height: 200px;
+    height: 220px;
     background-color: #34495E ;
     position: absolute;
-    width: 250px;
-    margin-top: 47px;
+    width: 225px;
+    margin-top: 27px;
     margin-left: -100px;
 }
 
@@ -206,8 +168,9 @@ margin-bottom: 50px;
     padding-top: 100px;
     text-align: center;
     font-size: 20px;
-    color: goldenrod;
+    color: #F39C17;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 .category{
     padding-top: 10px;
@@ -223,18 +186,21 @@ margin-bottom: 50px;
 }
 .grid-4-1{
     border: 15px solid white;
-    height: 300px;
     width: 60%;
     margin-left: 50px;
+    height: 250px;
+    border-bottom: 60px solid white;
 }
 .grid-4-2{
     border: 15px solid white;
-    height: 300px;
     width: 65%;
+    height: 250px;
+    border-bottom: 60px solid white;
 }
 .grid-4-3{
     border: 15px solid white;
-    height: 300px;
+    height: 250px;
+    border-bottom: 60px solid white;
     width: 65%;
 }
 .grid-5{
@@ -245,18 +211,21 @@ margin-bottom: 50px;
 }
 .grid-5-1{
     border: 15px solid white;
-    height: 300px;
+    height: 250px;
+    border-bottom: 60px solid white;
     width: 60%;
     margin-left: 50px;
 }
 .grid-5-2{
     border: 15px solid white;
-    height: 300px;
+    height: 250px;
+    border-bottom: 60px solid white;
     width: 65%;
 }
 .grid-5-3{
     border: 15px solid white;
-    height: 300px;
+    height: 250px;
+    border-bottom: 60px solid white;
     width: 65%;
 }
 
@@ -265,8 +234,10 @@ margin-bottom: 50px;
     padding-bottom: 100px;
 }
 .winning{
+    font-weight: bold;
+    letter-spacing: 2px;
     padding-top: 50px;
-    color: goldenrod;
+    color: #F39C17;
     font-size: 20px;
     text-align: center;
 }
@@ -280,26 +251,30 @@ margin-bottom: 50px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding-top: 40px;
+    column-gap: 10px;
 }
 .first-position{
+    color: black;
     text-align: center;
-    background: linear-gradient(to top right, #ccccff 50%, #ccccff 52%);
+    background-color:#EFFCC8 ; 
 }
 .second-position{
+    color: white;
     text-align: center;
     background: linear-gradient(to bottom left, #993399 50%, #990099 52%);
 }
 .third-position{
+    color: white;
     text-align: center;
-    background: linear-gradient(to bottom left, #ff66cc 50%, #ff6699 52%);
+    background: linear-gradient(to bottom left, #ff3399 50%, #ff0066 50%);
 }
 .fourth-position{
+    color: white;
     text-align: center;
-    background: linear-gradient(to bottom left, #ffcc66 50%, #ff9900 52%);
+    background: linear-gradient(to bottom left, #ff9933 50%, #ff9900 51%);
 }
 .bg-color{
-    background-color: gray; 
-    opacity: 0.2; 
+    background-color:#EFFCC8 ; 
     height: 200px;
 }
 .div-judge{
@@ -310,6 +285,8 @@ margin-bottom: 50px;
     text-align: center;
     color: white;
     font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 .c-judges{
     text-align: center;
@@ -350,7 +327,6 @@ margin-bottom: 50px;
     height: 250px;
     margin-left: 10px;
 }
-
 .help{
     color: white;
     text-align: center;
@@ -359,13 +335,12 @@ margin-bottom: 50px;
 .link{
     color: white;
 }
-
 .sponsorships{
     text-align: center;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 .sponsors{
-    font-weight: bold;
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
@@ -400,52 +375,47 @@ margin-bottom: 50px;
     height: 200px;
     border-radius: 100%;
 }
-
-
-
-
- 
 .main {
     position: relative;
     margin: auto;
     overflow: hidden;
-    width: 850px;
+    width: 60%;
     height: 480px;
-  }
-   
-  #countdown {
+    margin-bottom: -150px;
+}   
+#countdown {
     color: #F6F4F3;
     text-align: center;
     text-transform: uppercase;
     font-size: 1em;
     letter-spacing: 5px;
     margin-top: 5%;
-  }
-   
-  .days, .hours, .minutes, .seconds, .left {
+    font-weight: bold;
+}   
+.days, .hours, .minutes, .seconds, .left {
     display: inline-block;
     padding: 20px;
-  }
-   
-  .days {
-      background: linear-gradient(to bottom left, #ff3399 50%, #ff0066 50%);
-  }
-   
-  .hours {
-      background: linear-gradient(to bottom left, #ff3399 50%, #ff0066 50%);
-  }
-   
-  .minutes {
-      background: linear-gradient(to bottom left, #ff3399 50%, #ff0066 50%);
-  }
-   
-  .seconds {
-      background: linear-gradient(to bottom left, #ff3399 50%, #ff0066 50%);
-  }
-   
-  .c-number {
+}   
+.days {
+    background: linear-gradient(to top right, #cc0099 50%, #cc3399 50%);
+    border: 5px solid white;
+}   
+.hours {
+    background: linear-gradient(to top right, #cc0099 50%, #cc3399 50%);
+    border: 5px solid white;
+}
+.minutes {
+    background: linear-gradient(to top right, #cc0099 50%, #cc3399 50%);
+    border: 5px solid white;
+}   
+.seconds {
+    background: linear-gradient(to top right, #cc0099 50%, #cc3399 50%);
+    border: 5px solid white;
+}   
+.c-number {
     font-family: "Montserrat", sans-serif;
-    color: #333;
+    color: white;
     font-size: 5em;
-  }
+    font-weight: bolder;
+}
 
